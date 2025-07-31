@@ -8,20 +8,20 @@
 
 ## File Overview
 
-- **src/cli/main.py**  
+- ```**src/cli/main.py**```  
   Main CLI entry point. Handles user commands for processing, batch jobs, and testing.
 
-- **src/core/audio_processor.py**  
+- ```**src/core/audio_processor.py**```  
   Contains the logic for processing audio files using the selected model.
 
-- **src/models/facebook_deioniser.py**  
-  Implements the Facebook denoiser model used for voice isolation.
+- ```**src/models/facebook_deioniser.py**```  
+    Implements the Facebook denoiser model used for voice isolation.
 
-- **data/**  
-  Directory for your input audio files.
+- ```**data/**```   
+    Directory for the input audio files, there are already two sample audio files before processing.
 
-- **output/**  
-  Directory where cleaned audio files are saved.
+- ```**output/**```  
+  Directory where cleaned audio files are saved, you can already see the cleaned versions of input sample audios in this.
 
 ---
 
